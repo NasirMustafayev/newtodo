@@ -1,0 +1,75 @@
+@import url(./normalize.css);
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background: url("./bg.jpg") top/cover no-repeat;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.top h2 {
+  font-size: 40px;
+  color: #fff;
+}
+.top button {
+  border: none;
+  border-radius: 100%;
+  padding: 15px 19px;
+  font-size: 20px;
+  background: green;
+  color: #fff;
+}
+.top button:hover {
+  background: teal;
+}
+.top form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1vw;
+  border-radius: 10px;
+  color: #fff;
+}
+.top form input {
+  width: 100%;
+}
+.top form textarea {
+  width: 100%;
+}
+.top form button {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  background: teal;
+  color: #fff;
+}
+.top form button:hover {
+  background: #eeeeee;
+  color: teal;
+}
+
+.bottom #tasks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bottom #tasks .task {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 8px;
+  margin: 15px;
+  min-width: 200px;
+}
+
+.displayNone {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
